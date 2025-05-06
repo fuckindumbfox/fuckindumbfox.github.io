@@ -1,0 +1,57 @@
+
+
+.cal-sans-regular {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .comic-relief-regular {
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .comic-relief-bold {
+    font-family: "Comic Relief", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  header {
+    padding-left: 50px;
+    padding-right: 150px;
+    padding-top: 30px;
+    font-size: larger;
+    font-family: "Comic Relief", sans-serif;
+}
+
+
+/* I STOLE THIS ANIMATION OFF OF W3SCHOOLS */
+/* The animation code */
+@keyframes example {
+    0%   {background-color:rgb(255, 58, 18); left:50px; top:50px;}
+    25%  {background-color:rgb(255, 225, 0); left:150px; top:50px;}
+    50%  {background-color:rgb(0, 76, 255); left:150px; top:150px;}
+    75%  {background-color:rgb(0, 193, 0); left:50px; top:150px;}
+    100% {background-color:rgb(255, 58, 18); left:50px; top:50px;}
+  }
+  
+  /* The element to apply the animation to */
+  div {
+    font-family: "Comic Relief", sans-serif;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.75px #000000;
+    width: 100px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    position: relative;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
