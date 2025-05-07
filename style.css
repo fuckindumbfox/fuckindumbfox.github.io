@@ -30,9 +30,13 @@
 
   header {
 
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-size: x-large;
     font-family: "Comic Relief", sans-serif;
+    background-image: url('wapapa.png');
+    background-position: center;
+    background-repeat: no-repeat;
   }
   h1 {
     animation-name: titleanim;
@@ -40,6 +44,8 @@
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     text-align: center;
+    -webkit-text-stroke: 2px black;
+    color: white;
   }
 
   div {
